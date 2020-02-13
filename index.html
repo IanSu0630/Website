@@ -1,242 +1,404 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>HTML、CSS教學</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ian Su</title>
+	<link rel="shortcut icon" href="images/icon_lg.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Ian Su" />
 
-	<link rel="shortcut icon" href="images/icon.png">
-    <meta name='description' content='六角學院前端基礎教學課程簡介' />
-    <meta name='keywords' content='前端, 網頁設計, 線上課程' />
 
-    <meta property="og:title" content="六角學院前端基礎教學課程簡介" />
-    <meta property="og:description" content="在這個課程中你會學到如何從無到有來設計一個網站，同時也會教你如何善用軟體工具來提升你的開發效率。">
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.hexschool.com/" />
-    <meta property="og:image" content="images/iconfb.png" />
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-	<link href="images/icon.png" rel="apple-touch-icon" />
- 
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-	
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/lightbox.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-	<link rel="stylesheet" href="css/all.css">
-	<script src="js/jquery-2.2.3.min.js"></script>
-  	<script src="js/all.js"></script>
-  	
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 </head>
+
 <body>
-	<div class="wrap">
-	<div class="header">
-		<div class="nav">
-			<ul class="sociallink">
-				<li><a class="fb" href="#">粉絲團</a></li>
-				<li><a class="tw" href="#">追隨我們</a></li>	
-			</ul>
+
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+			style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t js-fullheight">
+							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+								<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+								<h1><span>SU,CHONG-YI</span></h1>
+								<h3><span>Front-End Developer</span></h3>
+								<p>
+									<ul class="fh5co-social-icons">
+										<li><a href="https://www.facebook.com/ian188293" target="_blank"><i
+													class="icon-facebook2"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/su-ian-b47865117/" target="_blank"><i
+													class="icon-linkedin2"></i></a></li>
+										<li><a href="https://github.com/IanSu0630" target="_blank"><i
+													class="icon-github2"></i></a></li>
+										<li><a href="mailto:eph3k2625@gmail.com" target="_blank"><i
+													class="icon-google2"></i></a></li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="fh5co-about" class="animate-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>About Me</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<ul class="info">
+							<li><span class="first-block">Full Name:</span><span class="second-block"> 蘇崇億 Ian</span></li>
+							<li><span class="first-block">Phone:</span><span class="second-block">0934-188-293</span>
+							</li>
+							<li><span class="first-block">Email:</span><span
+									class="second-block">eph3k2625@gmail.com</span></li>
+							<li><span class="first-block">Address:</span><span class="second-block">2F., No. 28, Ganzhen
+									2nd St., Tamsui Dist., New Taipei City 251, Taiwan (R.O.C.)</span></li>
+						</ul>
+					</div>
+					<div class="col-md-8">
+						<h2>Hello There!</h2>
+						<p>文選告表國少育幾構特路點然，位是小之官文決失那活的才令長廠廣師法小此拉同的全各容詩質學小標，計臺女、存人設消年些頭失們流更理！
+							富造場資立的，告生滿，答讀不整！新地態不日於看車陸場可新信義落慢西趣容談，臺上他形獎動品友下子究吃一文特議於。
+						</p>
+						<p>為氣兩文加溫造兒富工設成法，願平走停明果銷不這……阿年賣走開受般字行星供，對你旅獎病能親一經光壓前提酒相、演生中獲快去法。
+							何面頭雖燈爾工同過，氣然己；的方綠計力來就仍學夜平生規的這民度自外白、臺對少義年頭。看發存土動知費好大：用界連物道情整有星了長法城得書教多那我家紀呢許可關；後不共同活能許口技我，氣口花，只參度百加，笑布那樹？日下夫滿息麗頭度我程是福，人生的中得農在特天生……大然且回進接談備麗！所家資中以轉父……天後。
+							實北得式公何濟間銷也升大間知留作、食了車難算來花於歡題的真？他原麼參有我口參；工帶大名腦注次，輕還現品經展標轉我心導以在面東放很為因度。全邊師爭時立海高會常減我著改益，收土狀育管戲腳，明中標出戲特我心定喜她看關道，力他要北股不生石座許但個展立士媽兒。體同天量服次行，信好天！
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		
-		<div class="clearfix"></div>
-		
-		<div class="navbar">
-			<h1 class="logo">
-				<a href="#">Hex School</a>
-			</h1>
-			<ul class="menu">
-				<li><a href="#">首頁</a></li>
-				<li>
-					<a href="#" class="dropdown">產品介紹</a>
-					<ul class="dropdown-open">
-						<li><a href="#">Html 5</a></li>
-						<li><a href="#">RWD</a></li>
-						<li><a href="#">jQuery</a></li>
-					</ul>
-				</li>
-				<li><a href="#">聯絡我們</a></li>
-			</ul>
+
+		<div id="fh5co-resume" class="fh5co-bg-color">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Resume</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0">
+						<ul class="timeline">
+							<li class="timeline-heading text-center animate-box">
+								<div>
+									<h3>Education</h3>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">國立中央大學</h3>
+										<span class="company">資訊管理研究所 <br> Sept. 2018 – Jun 2020</span>
+									</div>
+									<div class="timeline-body">
+										<p>
+											Far far away, behind the word mountains, they live in Bookmarksgrove right at
+											the coast of the Semantics, a large language ocean.
+										</p>
+									</div>
+								</div>
+							</li>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">淡江大學</h3>
+										<span class="company">教育科技學系 <br> Sept. 2011 – Jun 2015</span>
+									</div>
+									<div class="timeline-body">
+										<p>Far far away, behind the word mountains, far from the countries Vokalia and
+											Consonantia, there live the blind texts.</p>
+									</div>
+								</div>
+							</li>
+
+							<br>
+							<li class="timeline-heading text-center animate-box">
+								<div>
+									<h3>Work Experience</h3>
+								</div>
+							</li>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">資訊安全部實習生</h3>
+										<span class="company">新光人壽保險 <br> July 2019 – Aug. 2019</span>
+									</div>
+									<div class="timeline-body text-right">
+										<p>
+											1. Using penetration test to simulate hacker's attacks to find the system's vulnerabilities and threats.
+											<br>
+											2. Conducted the DDoS drill and social engineering drill to ensure that the company has the ability of
+											handling crisis when it encounters an attack.
+											<br>
+											3. Implemented cyber security assessment to ensure enterprise system security is undoubted.
+										</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">數位學習系統專員</h3>
+										<span class="company">康舒科技 <br> June 2015 – June 2017</span>
+									</div>
+									<div class="timeline-body">
+										<p>
+											1. Converted old e-learning system to new e-learning system.
+											<br>
+											2. Planning the e-learning system's content, testing system, and training before the official launch.
+										</p>
+									</div>
+								</div>
+							</li>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">數位學習實習生</h3>
+										<span class="company">華碩電腦 <br> Mar. 2015 – June 2015</span>
+									</div>
+									<div class="timeline-body">
+										<p>
+											Developed e-learning course materials and assisted in e-learning system management.
+										</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-		
 
-	</div>
-		
-		<!-- Slider main container -->
-		<div class="swiper-container">
-		    <!-- Additional required wrapper -->
-		    <div class="swiper-wrapper">
-		        <!-- Slides -->
-		        <div class="swiper-slide">
-		        	<h2 class="animated fadeInLeft">六角學院<br>讓您奠定良好的前端基礎</h2>
-		        	<img src="images/banner01.jpg" alt="">
-		        </div>
-		        <div class="swiper-slide">
-		        	<h2>線上 24 小時內隨傳隨到<br>寫程式不卡關</h2>
-		        	<img src="images/banner02.jpg" alt="">
-		        </div>
-		        <div class="swiper-slide">
-		        	<h2>為不同的目標<br>提供學習上的建議</h2>
-		        	<img src="images/banner03.jpg" alt="">
-		    	</div>
-		        
-		    </div>
-		    <!-- If we need pagination -->
-		    <div class="swiper-pagination swiper-pagination-white"></div>
-
-		    <!-- If we need navigation buttons -->
-		    <div class="swiper-button-prev swiper-button-white"></div>
-		    <div class="swiper-button-next swiper-button-white"></div>
-
-		</div>
-		
-		<div class="clearfix"></div>
-
-	<div class="content">
-		<div class="intro">
-			<ul>
-				<li>
-					<div class="introimg">
-						<a class="introlink" href="images/html5_02.jpg" data-lightbox="example-1" data-title="Html5 基礎教學">
-							<img class="html5" src="images/html5.png" alt="image-1" title="Html5 基礎教學">
+		<div id="fh5co-work" class="fh5co-bg-dark">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Work</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+							<div class="desc">
+								<h3>Project Name</h3>
+								<span>Illustration</span>
+							</div>
 						</a>
 					</div>
-					<h2>Html 5 基礎教學</h2>
-					<p>主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
-				</li>
-				<li>
-					<div class="introimg">
-						<a class="introlink" href="images/responsive_02.png"data-lightbox="example-2" data-title="響應式網站設計">
-							<img class="responsive" src="images/responsive.png" alt="image-1" title="響應式網站設計">
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+							<div class="desc">
+								<h3>Project Name</h3>
+								<span>Brading</span>
+							</div>
 						</a>
 					</div>
-					<h2>響應式網站設計</h2>
-					<p>響應式網站設計(Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
-				</li>
-				<li>
-					<div class="introimg">
-						<a class="introlink" href="images/jquery_02.jpg" data-lightbox="example-3" data-title="jQuery 實戰教學">
-							<img class="jquery" src="images/jquery.png" alt="image-1" title="jQuery 實戰教學">
-						</a>	
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+							<div class="desc">
+								<h3>Project Name</h3>
+								<span>Illustration</span>
+							</div>
+						</a>
 					</div>
-					<h2>jQuery 實戰教學</h2>
-					<p>本課程有以下特色</p>
-					<ul class="jQueryList">
-						<li>瞭解變數的使用方法</li>
-						<li>學習並操作 DOM</li>
-						<li>學習基本數學運算方法</li>
-						<li>套件的操作及運用</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-		
-		<div class="clearfix"></div>
-
-		<div class="table">
-			<h2>線上及實體課程的差異</h2>
-			<table>
-				<tr>
-					<th>項目</th>
-					<th>Hex School 線上課程</th>
-					<th>一般線上課程</th>
-					<th>實體課程</th>
-				</tr>
-				<tr>
-					<td>費用</td>
-					<td><span>較低</span></td>
-					<td><span>較低</span></td>
-					<td>較高</td>
-				</tr>
-				<tr>
-					<td>學習效果</td>
-					<td>一般</td>
-					<td><span>較低</span></td>
-					<td><span>很好</span></td>
-				</tr>
-				<tr>
-					<td>Code review</td>
-					<td><span>有</span></td>
-					<td>無</td>
-					<td>不一定</td>
-				</tr>
-				<tr>
-					<td>課程更新進度</td>
-					<td><span>普通</span></td>
-					<td><span>普通</span></td>
-					<td>較慢</td>
-				</tr>
-				<tr>
-					<td>多次複習</td>
-					<td><span>可</span></td>
-					<td>可</td>
-					<td>不可</td>
-				</tr>
-				<tr>
-					<td>字幕</td>
-					<td><span>有</span></td>
-					<td>不一定</td>
-					<td>板書</td>
-				</tr>
-			</table>	
-		</div>
-		
-		<div class="formarea">
-			<h2>對我們課程有興趣嗎？<br>歡迎留下您的資料</h2>
-			<form action="index.html">
-				<textarea name="content" rows="15"></textarea>
-				<label for="person" >姓名</label>
-				<input id="person" type="text" class="text" placeholder="六角講師" name="person">
-				<label for="tel">電話</label>
-				<input id="tel" type="text" class="text" placeholder="0912345678" name="tel">
-				<label for="mail">信箱</label>
-				<input id="mail" type="text" class="text" placeholder="hexschool@mail.com" name="mail">
-				<input type="submit" class="btn" value="送出">
-				
-				<div class="clearfix"></div>
-				
-			</form>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+							<div class="desc">
+								<h3>Project Name</h3>
+								<span>Design</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
+							<div class="desc">
+								<h3>Project Name</h3>
+								<span>Website</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+							<div class="desc">
+								<h3>Project Name</h3>
+								<span>Illustration</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+							<div class="desc">
+								<h3>Project Name</h3>
+								<span>Brading</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+							<div class="desc">
+								<h3>Project Name</h3>
+								<span>Illustration</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<div class="clearfix"></div>
+		<div id="fh5co-skills" class="animate-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Programming</h2>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="93"><span><strong>CSS3</strong>95%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="90"><span><strong>jQuery</strong>85%</span></div>
+					</div>
 
-	</div>
-	
-	<div class="footer">
-		<img src="images/footer_logo.png" alt="">
-		<div class="contactinfo">
-			<h3>聯絡我們：<span>hexschool@gmil.com</span></h3>
-			<h3>電話：<span>0999123456</span></h3>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="89"><span><strong>JavaScript</strong>50%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="85"><span><strong>Vue.js</strong>0%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="90"><span><strong>Node.js</strong>0%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="85"><span><strong>Python</strong>80%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="90"><span><strong>MySQL</strong>90%</span></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Languages</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-6">
+							<div class="progress-wrap  justify-content-center">
+								<h3><span class="name-left">TOEIC</span><span class="value-right">780/990</span></h3>
+								<div class="progress">
+									<div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" aria-valuenow="78"
+										aria-valuemin="0" aria-valuemax="100" style="width:78%">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-	</div>
-	<div class="top">
-		<a href="#"><img src="images/top.png" alt=""></a>
-	</div>
-	</div>	
 
-	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-	<script src="js/lightbox-plus-jquery.min.js"></script>
-	<script>
-	  var mySwiper = new Swiper ('.swiper-container', {
-	    // Optional parameters
-	    direction: 'horizontal',
-	    speed: 1500,
-	    loop: true,
-	    autoplay: {
-		    delay: 3500,
-		  },
+		<div id="fh5co-started" class="fh5co-bg-dark">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Hire Me!</h2>
+						<p>
+							如果您對我有興趣，請聯絡我!
+						</p>
+						<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-	    // If we need pagination
-	    pagination: {
-	      el: '.swiper-pagination',
-	    },
+		<div id="fh5co-footer">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<p>&copy;Copyright © 2020 by SU,CHONG-YI. All Rights Reserved.
+					</div>
+				</div>
+			</div>
+		</div>
 
-	    // Navigation arrows
-	    navigation: {
-	      nextEl: '.swiper-button-next',
-	      prevEl: '.swiper-button-prev',
-	    },
-	  })
-  	</script>
+		<div class="gototop js-top">
+			<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+		</div>
+
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Stellar Parallax -->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- Easy PieChart -->
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<!-- Google Map -->
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+		<script src="js/google_map.js"></script>
+
+		<!-- Main -->
+		<script src="js/main.js"></script>
+
 </body>
+
 </html>
